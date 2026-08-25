@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+  <title id="title">Macropad system architecture</title><desc id="desc">Eight keys and an encoder connect to an RP2040, which communicates with a host over USB and an OLED over I2C.</desc>
+  <defs><style>.b{fill:#111827;stroke:#22d3ee;stroke-width:3}.t{fill:#f8fafc;font:600 18px system-ui}.s{fill:#cbd5e1;font:14px system-ui}.a{stroke:#94a3b8;stroke-width:3;marker-end:url(#m)}.h{fill:#0f172a}</style><marker id="m" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#94a3b8"/></marker></defs>
+  <rect width="960" height="360" rx="20" class="h"/>
+  <rect x="55" y="55" width="215" height="92" rx="14" class="b"/><text x="162" y="91" text-anchor="middle" class="t">8 × MX keys</text><text x="162" y="119" text-anchor="middle" class="s">2 rows × 4 columns</text>
+  <rect x="55" y="213" width="215" height="92" rx="14" class="b"/><text x="162" y="249" text-anchor="middle" class="t">EC11 encoder</text><text x="162" y="277" text-anchor="middle" class="s">A/B rotation + push</text>
+  <rect x="374" y="117" width="215" height="126" rx="14" class="b"/><text x="481" y="166" text-anchor="middle" class="t">XIAO RP2040</text><text x="481" y="194" text-anchor="middle" class="s">QMK firmware</text><text x="481" y="219" text-anchor="middle" class="s">USB HID controller</text>
+  <rect x="690" y="55" width="215" height="92" rx="14" class="b"/><text x="797" y="91" text-anchor="middle" class="t">Host computer</text><text x="797" y="119" text-anchor="middle" class="s">USB HID</text>
+  <rect x="690" y="213" width="215" height="92" rx="14" class="b"/><text x="797" y="249" text-anchor="middle" class="t">OLED display</text><text x="797" y="277" text-anchor="middle" class="s">I²C status output</text>
+  <path d="M270 101 L374 154" class="a"/><path d="M270 259 L374 207" class="a"/><path d="M589 154 L690 110" class="a"/><path d="M589 207 L690 250" class="a"/>
+</svg>

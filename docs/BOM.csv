@@ -1,0 +1,11 @@
+Item,Reference,Quantity,Description,Selection note
+1,U1,1,Seeed Studio XIAO RP2040,Confirm castellated/header mounting approach
+2,SW2-SW9,8,MX-compatible mechanical key switch,Choose consistent plate/PCB mount style
+3,SW1,1,EC11E-style incremental rotary encoder with push switch,Confirm shaft and thread dimensions
+4,D1-D9,9,Through-hole switching diode DO-35,Observe polarity
+5,J1,1,1x4 2.54 mm OLED header,Verify display voltage and pin order
+6,,8,MX-compatible keycaps,Match switch stem
+7,,1,Encoder knob,Match shaft diameter/profile
+8,,1,Custom PCB,Order from reviewed Gerbers
+9,,1,3D-printed enclosure,Verify material and fit experimentally
+10,,1,USB cable,Data-capable cable required
